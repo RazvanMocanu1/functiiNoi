@@ -1,4 +1,6 @@
 //Arrow Function :
+//      &
+//Lambda Functions :
 
 const adunare = (a,b) => a + b;
 const scadere = (a,b) => a - b;
@@ -21,6 +23,7 @@ const calcul_9 = (a,b) => a / b + a;
 const calcul_10 = (a,b) => a * b - a;
 
 //High Order Function :
+
 const number = (a, b, func) => func(a,b);
 
 const totalNumber = number(60 , 37, calcul_7);
