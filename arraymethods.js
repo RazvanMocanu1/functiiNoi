@@ -27,3 +27,5 @@ console.log(" ");
 const listaNumerePare = lista.filter((element) => element % 2 === 0 );
 
 console.log(listaNumerePare);
+
+//Poate sorte numere pe o anumita categorie.
