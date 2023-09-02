@@ -28,4 +28,6 @@ const number = (a, b, func) => func(a,b);
 
 const totalNumber = number(60 , 37, calcul_7);
 
-//console.log(totalNumber);
+console.log(totalNumber);
+
+console.log(" ");

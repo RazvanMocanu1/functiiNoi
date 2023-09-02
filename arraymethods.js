@@ -9,3 +9,21 @@ lista.forEach((element) => {
 } );
 
 //Chiar si daca fac lista de mii de cifre tot le va pune pe fiecare una cate una in consola.
+
+console.log(" ");
+
+//Map Array Method :
+
+const listaForme = lista.map((element) => element * element );
+
+console.log(listaForme);
+
+//Elementele din lista se transforma toate deodata.
+
+console.log(" ");
+
+//Filter Array Method :
+
+const listaNumerePare = lista.filter((element) => element % 2 === 0 );
+
+console.log(listaNumerePare);
